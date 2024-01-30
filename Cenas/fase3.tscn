@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://0utgrtxqu44t"]
+
+[node name="Fase3" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap"]

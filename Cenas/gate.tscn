@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpe0g2o4pgwkb"]
+
+[ext_resource type="Script" path="res://Scripts/gate.gd" id="1_idbgm"]
+[ext_resource type="Texture2D" uid="uid://d4dkyb7ktjckh" path="res://Assets/player and enemies/Dungeon_Tileset.png" id="2_1ah7w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t3fjt"]
+size = Vector2(32, 16)
+
+[node name="Gate" type="StaticBody2D"]
+script = ExtResource("1_idbgm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-2, 21)
+texture = ExtResource("2_1ah7w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_t3fjt")

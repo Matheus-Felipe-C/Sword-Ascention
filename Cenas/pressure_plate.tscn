@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkkcfa48a6i6m"]
+
+[ext_resource type="Texture2D" uid="uid://ddj0xgtbb31qh" path="res://Assets/New Piskel(2).png" id="1_5lac3"]
+
+[sub_resource type="GDScript" id="GDScript_elm3n"]
+script/source = "# Pressure_plate.gd
+extends Area2D
+
+var bodyCount = 0
+
+func _ready():
+	pass
+
+func addBody(_body):
+	bodyCount = bodyCount + 1
+
+func removeBody(_body):
+	bodyCount = bodyCount - 1
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dcf68"]
+radius = 9.77926
+
+[node name="Pressure_plate" type="Area2D"]
+script = SubResource("GDScript_elm3n")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-0.5, 0.5)
+texture = ExtResource("1_5lac3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.818058, 0.675949)
+shape = SubResource("CircleShape2D_dcf68")
