@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkkcfa48a6i6m"]
+
+[ext_resource type="Texture2D" uid="uid://ddj0xgtbb31qh" path="res://Assets/New Piskel(2).png" id="1_5lac3"]
+[ext_resource type="Script" path="res://Scripts/pressure_plate.gd" id="1_d8e17"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tkgfu"]
+size = Vector2(15.5, 10.5)
+
+[node name="Pressure_plate" type="Area2D"]
+script = ExtResource("1_d8e17")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_5lac3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_tkgfu")
