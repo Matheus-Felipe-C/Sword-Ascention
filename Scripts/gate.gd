@@ -23,3 +23,7 @@ func _on_pressure_plate_body_exited(_body):
 		show()
 		set_collision_layer_value(1, true)
 		set_collision_mask_value(1, true)
+
+
+func _on_area_2d_body_entered(body):
+	pass # Replace with function body.

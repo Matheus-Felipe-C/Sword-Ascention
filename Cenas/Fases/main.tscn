@@ -5,8 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://ckhk8culeg2o5" path="res://Cenas/Objetos/Player.tscn" id="3_5kiqm"]
 [ext_resource type="PackedScene" uid="uid://dkkcfa48a6i6m" path="res://Cenas/Objetos/pressure_plate.tscn" id="4_058mk"]
 [ext_resource type="PackedScene" uid="uid://0vixnfysejtp" path="res://Cenas/Objetos/crate.tscn" id="5_idpbu"]
-[ext_resource type="PackedScene" uid="uid://bu17v80fude2f" path="res://Cenas/Objetos/Stair.tscn" id="6_qeg0p"]
-[ext_resource type="PackedScene" uid="uid://dabm8qwlhy5u" path="res://Cenas/Fases/fase2.tscn" id="7_hub5k"]
+[ext_resource type="PackedScene" uid="uid://bu17v80fude2f" path="res://Cenas/Objetos/Stair.tscn" id="6_txnpl"]
+[ext_resource type="PackedScene" uid="uid://bbx2b3xr6y2jy" path="res://Cenas/Fases/Fase1.tscn" id="7_2aca6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tpg2t"]
 texture = ExtResource("1_01dvk")
@@ -358,12 +358,8 @@ position = Vector2(25, 8)
 [node name="Crate" parent="." instance=ExtResource("5_idpbu")]
 position = Vector2(-23, -9)
 
-[node name="Stair2D" parent="." instance=ExtResource("6_qeg0p")]
-position = Vector2(8, -44)
-next_scene = ExtResource("7_hub5k")
-
-[node name="Stair2D2" parent="." instance=ExtResource("6_qeg0p")]
-position = Vector2(-7, -43)
-next_scene = ExtResource("7_hub5k")
+[node name="Stair2D" parent="." instance=ExtResource("6_txnpl")]
+position = Vector2(-4, -47)
+next_scene = ExtResource("7_2aca6")
 
 [connection signal="body_entered" from="Pressure_plate" to="Gate" method="_on_pressure_plate_body_entered"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://0vixnfysejtp"]
 
-[ext_resource type="Texture2D" uid="uid://datl57egvyugi" path="res://Assets/Destructible Objects Sprite Sheet.png" id="1_ct0e3"]
+[ext_resource type="Texture2D" uid="uid://datl57egvyugi" path="res://game-assents/Destructible Objects Sprite Sheet.png" id="1_ct0e3"]
 [ext_resource type="Script" path="res://Scripts/crate.gd" id="1_wl3fd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n7vv0"]

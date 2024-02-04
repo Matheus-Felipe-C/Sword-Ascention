@@ -24,8 +24,6 @@ func _on_quit_btn_pressed():
 
 
 
-
-
 func _on_controlsbtn_pressed():
 	var controlScreen = load("res://Cenas/controls_screen.tscn").instance()
 	get_tree().current_scene.add_child(controlScreen)
