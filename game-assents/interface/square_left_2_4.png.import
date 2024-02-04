@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cep6ritfm75aq"
-path="res://.godot/imported/square_left_2_4.png-ee6fd02bd0168296be72d29c7ecf6b21.ctex"
+path="res://.godot/imported/square_left_2_4.png-d9732e7d67d61bd5cc8e6d0a29adc039.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/interface/square_left_2_4.png"
-dest_files=["res://.godot/imported/square_left_2_4.png-ee6fd02bd0168296be72d29c7ecf6b21.ctex"]
+source_file="res://game-assents/interface/square_left_2_4.png"
+dest_files=["res://.godot/imported/square_left_2_4.png-d9732e7d67d61bd5cc8e6d0a29adc039.ctex"]
 
 [params]
 

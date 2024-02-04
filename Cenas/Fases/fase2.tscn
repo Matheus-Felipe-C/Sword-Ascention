@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://dabm8qwlhy5u"]
 
-[ext_resource type="Texture2D" uid="uid://rkm32awo4d2o" path="res://Assets/interface/character and tileset/Dungeon_Tileset.png" id="1_k5uc4"]
+[ext_resource type="Texture2D" uid="uid://rkm32awo4d2o" path="res://game-assents/interface/character and tileset/Dungeon_Tileset.png" id="1_k5uc4"]
 [ext_resource type="PackedScene" uid="uid://ckhk8culeg2o5" path="res://Cenas/Objetos/Player.tscn" id="2_cb1j7"]
 [ext_resource type="PackedScene" uid="uid://0vixnfysejtp" path="res://Cenas/Objetos/crate.tscn" id="3_tbirl"]
 

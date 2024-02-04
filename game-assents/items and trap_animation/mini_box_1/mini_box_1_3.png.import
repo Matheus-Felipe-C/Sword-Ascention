@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4nn07l28s8vw"
-path="res://.godot/imported/mini_box_1_3.png-fab8a2b239e416604d2a9e7ec71af2a6.ctex"
+path="res://.godot/imported/mini_box_1_3.png-1949ba316a85a296b0c400774f0797ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/items and trap_animation/mini_box_1/mini_box_1_3.png"
-dest_files=["res://.godot/imported/mini_box_1_3.png-fab8a2b239e416604d2a9e7ec71af2a6.ctex"]
+source_file="res://game-assents/items and trap_animation/mini_box_1/mini_box_1_3.png"
+dest_files=["res://.godot/imported/mini_box_1_3.png-1949ba316a85a296b0c400774f0797ad.ctex"]
 
 [params]
 

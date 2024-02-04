@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxudhxwtnaxrc"
-path="res://.godot/imported/peaks_2.png-44949fa51d92b39ccf3726fd73afe614.ctex"
+path="res://.godot/imported/peaks_2.png-17db9ac81f838c4aef90cab6b29a4941.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/items and trap_animation/peaks/peaks_2.png"
-dest_files=["res://.godot/imported/peaks_2.png-44949fa51d92b39ccf3726fd73afe614.ctex"]
+source_file="res://game-assents/items and trap_animation/peaks/peaks_2.png"
+dest_files=["res://.godot/imported/peaks_2.png-17db9ac81f838c4aef90cab6b29a4941.ctex"]
 
 [params]
 

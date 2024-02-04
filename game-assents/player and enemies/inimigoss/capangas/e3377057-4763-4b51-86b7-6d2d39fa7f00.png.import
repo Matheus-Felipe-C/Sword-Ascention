@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpqkculhxhsyv"
-path="res://.godot/imported/e3377057-4763-4b51-86b7-6d2d39fa7f00.png-8eced226e9cc958a42bed8cee307b5e8.ctex"
+path="res://.godot/imported/e3377057-4763-4b51-86b7-6d2d39fa7f00.png-02206bee9a2931905cf535858f217a3c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/player and enemies/inimigoss/capangas/e3377057-4763-4b51-86b7-6d2d39fa7f00.png"
-dest_files=["res://.godot/imported/e3377057-4763-4b51-86b7-6d2d39fa7f00.png-8eced226e9cc958a42bed8cee307b5e8.ctex"]
+source_file="res://game-assents/player and enemies/inimigoss/capangas/e3377057-4763-4b51-86b7-6d2d39fa7f00.png"
+dest_files=["res://.godot/imported/e3377057-4763-4b51-86b7-6d2d39fa7f00.png-02206bee9a2931905cf535858f217a3c.ctex"]
 
 [params]
 

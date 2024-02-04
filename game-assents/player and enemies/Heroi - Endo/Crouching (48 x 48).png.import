@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://deuxvpfydanyb"
-path="res://.godot/imported/Crouching (48 x 48).png-b12eed8449fb02ccf93b3eb8dbb890b0.ctex"
+path="res://.godot/imported/Crouching (48 x 48).png-c830d5b6bc5a94eada4f09e5140dc696.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/player and enemies/Heroi - Endo/Crouching (48 x 48).png"
-dest_files=["res://.godot/imported/Crouching (48 x 48).png-b12eed8449fb02ccf93b3eb8dbb890b0.ctex"]
+source_file="res://game-assents/player and enemies/Heroi - Endo/Crouching (48 x 48).png"
+dest_files=["res://.godot/imported/Crouching (48 x 48).png-c830d5b6bc5a94eada4f09e5140dc696.ctex"]
 
 [params]
 

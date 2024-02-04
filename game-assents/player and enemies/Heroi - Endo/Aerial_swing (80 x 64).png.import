@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvka0l7vdn4iw"
-path="res://.godot/imported/Aerial_swing (80 x 64).png-25ec6c305dc35e04159f2f67eeafc337.ctex"
+path="res://.godot/imported/Aerial_swing (80 x 64).png-e2352b8e2a33d8b11dcf38339c3dffea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/player and enemies/Heroi - Endo/Aerial_swing (80 x 64).png"
-dest_files=["res://.godot/imported/Aerial_swing (80 x 64).png-25ec6c305dc35e04159f2f67eeafc337.ctex"]
+source_file="res://game-assents/player and enemies/Heroi - Endo/Aerial_swing (80 x 64).png"
+dest_files=["res://.godot/imported/Aerial_swing (80 x 64).png-e2352b8e2a33d8b11dcf38339c3dffea.ctex"]
 
 [params]
 

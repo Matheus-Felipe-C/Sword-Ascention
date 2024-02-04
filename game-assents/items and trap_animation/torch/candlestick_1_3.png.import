@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnynsdy8l2dfe"
-path="res://.godot/imported/candlestick_1_3.png-e64fd3c813088835a4d6a8093d51877b.ctex"
+path="res://.godot/imported/candlestick_1_3.png-879836e201d4629f75bf311a21ba7ede.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/items and trap_animation/torch/candlestick_1_3.png"
-dest_files=["res://.godot/imported/candlestick_1_3.png-e64fd3c813088835a4d6a8093d51877b.ctex"]
+source_file="res://game-assents/items and trap_animation/torch/candlestick_1_3.png"
+dest_files=["res://.godot/imported/candlestick_1_3.png-879836e201d4629f75bf311a21ba7ede.ctex"]
 
 [params]
 

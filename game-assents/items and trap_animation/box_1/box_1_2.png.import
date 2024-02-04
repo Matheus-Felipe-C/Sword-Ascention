@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1eht4gyr1rqc"
-path="res://.godot/imported/box_1_2.png-cdca705cf977ae9a51c98490de255580.ctex"
+path="res://.godot/imported/box_1_2.png-82e4c46ef682287b06310d567a6915fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/items and trap_animation/box_1/box_1_2.png"
-dest_files=["res://.godot/imported/box_1_2.png-cdca705cf977ae9a51c98490de255580.ctex"]
+source_file="res://game-assents/items and trap_animation/box_1/box_1_2.png"
+dest_files=["res://.godot/imported/box_1_2.png-82e4c46ef682287b06310d567a6915fd.ctex"]
 
 [params]
 

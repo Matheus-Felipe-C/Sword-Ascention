@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://start_screen.gd" id="1_yatyn"]
 [ext_resource type="TileSet" uid="uid://gxa7bl4jxkb7" path="res://Fase1.tres" id="2_nr08u"]
 [ext_resource type="FontFile" uid="uid://htmm0jadh4po" path="res://PressStart2P.ttf" id="3_6dirg"]
-[ext_resource type="Texture2D" uid="uid://deuxvpfydanyb" path="res://Assets/player and enemies/Heroi - Endo/Crouching (48 x 48).png" id="4_6hqfv"]
+[ext_resource type="Texture2D" uid="uid://deuxvpfydanyb" path="res://game-assents/player and enemies/Heroi - Endo/Crouching (48 x 48).png" id="4_6hqfv"]
 
 [sub_resource type="Theme" id="Theme_kvfya"]
 default_font = ExtResource("3_6dirg")
@@ -77,6 +77,16 @@ layout_mode = 2
 size_flags_vertical = 8
 color = Color(0, 0, 0, 0.65098)
 
+[node name="controlsbtn" type="Button" parent="controls"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = SubResource("Theme_kvfya")
+theme_override_colors/font_pressed_color = Color(0.592157, 0.537255, 0.129412, 1)
+theme_override_fonts/font = ExtResource("3_6dirg")
+theme_override_font_sizes/font_size = 40
+text = "Controls
+"
+
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Node2D"]
@@ -86,3 +96,5 @@ sprite_frames = SubResource("SpriteFrames_wnnvx")
 
 [connection signal="pressed" from="controls/startBtn" to="." method="_on_start_btn_pressed"]
 [connection signal="pressed" from="controls/quitBtn" to="." method="_on_quit_btn_pressed"]
+[connection signal="pressed" from="controls/controlsbtn" to="." method="_on_quit_btn_pressed"]
+[connection signal="pressed" from="controls/controlsbtn" to="." method="_on_controlsbtn_pressed"]

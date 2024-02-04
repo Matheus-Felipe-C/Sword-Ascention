@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c633n4hbatxyb"
-path="res://.godot/imported/Blink (48 x 48).png-a08baec85f08b4a6733345e02b691691.ctex"
+path="res://.godot/imported/Blink (48 x 48).png-558fbc4d4d503bf3205f7a341e762ad8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/player and enemies/Heroi - Endo/Blink (48 x 48).png"
-dest_files=["res://.godot/imported/Blink (48 x 48).png-a08baec85f08b4a6733345e02b691691.ctex"]
+source_file="res://game-assents/player and enemies/Heroi - Endo/Blink (48 x 48).png"
+dest_files=["res://.godot/imported/Blink (48 x 48).png-558fbc4d4d503bf3205f7a341e762ad8.ctex"]
 
 [params]
 

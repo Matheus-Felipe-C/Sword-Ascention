@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bj4krxrqenkoo"]
 
-[ext_resource type="FontFile" uid="uid://htmm0jadh4po" path="res://PressStart2P.ttf" id="1_jlpne"]
+[ext_resource type="FontFile" uid="uid://htmm0jadh4po" path="res://PressStart2P.ttf" id="1_n6q5t"]
 
 [node name="controlsScreen" type="Control"]
 layout_mode = 3
@@ -32,7 +32,7 @@ offset_right = 394.0
 offset_bottom = 144.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("1_jlpne")
+theme_override_fonts/font = ExtResource("1_n6q5t")
 text = "Controles
 
 Caminhe para a esquerda Seta para a esquerda/A
@@ -58,5 +58,5 @@ offset_bottom = -32.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_pressed_color = Color(0.941176, 0.721569, 0, 1)
-theme_override_fonts/font = ExtResource("1_jlpne")
+theme_override_fonts/font = ExtResource("1_n6q5t")
 text = "Return"

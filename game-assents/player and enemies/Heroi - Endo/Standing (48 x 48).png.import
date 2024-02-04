@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yqogtdaq0kr"
-path="res://.godot/imported/Standing (48 x 48).png-1efe6084021c540d3de398f3d0065416.ctex"
+path="res://.godot/imported/Standing (48 x 48).png-43bdb4ae9207bf5e5520091d9189ddfb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/player and enemies/Heroi - Endo/Standing (48 x 48).png"
-dest_files=["res://.godot/imported/Standing (48 x 48).png-1efe6084021c540d3de398f3d0065416.ctex"]
+source_file="res://game-assents/player and enemies/Heroi - Endo/Standing (48 x 48).png"
+dest_files=["res://.godot/imported/Standing (48 x 48).png-43bdb4ae9207bf5e5520091d9189ddfb.ctex"]
 
 [params]
 

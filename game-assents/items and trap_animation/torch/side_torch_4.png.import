@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8hvv1tvcucdq"
-path="res://.godot/imported/side_torch_4.png-071944228d15a86258002fffb0b603bc.ctex"
+path="res://.godot/imported/side_torch_4.png-2e31100e84bb6cc8b4955c4907e6ca43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/items and trap_animation/torch/side_torch_4.png"
-dest_files=["res://.godot/imported/side_torch_4.png-071944228d15a86258002fffb0b603bc.ctex"]
+source_file="res://game-assents/items and trap_animation/torch/side_torch_4.png"
+dest_files=["res://.godot/imported/side_torch_4.png-2e31100e84bb6cc8b4955c4907e6ca43.ctex"]
 
 [params]
 

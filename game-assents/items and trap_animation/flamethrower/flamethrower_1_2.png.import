@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhl8qlgm0n4af"
-path="res://.godot/imported/flamethrower_1_2.png-bf79519f19d08af135a0fcdafaa17bfa.ctex"
+path="res://.godot/imported/flamethrower_1_2.png-78f7ea1299b5bb0cfae84b6c307917e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/items and trap_animation/flamethrower/flamethrower_1_2.png"
-dest_files=["res://.godot/imported/flamethrower_1_2.png-bf79519f19d08af135a0fcdafaa17bfa.ctex"]
+source_file="res://game-assents/items and trap_animation/flamethrower/flamethrower_1_2.png"
+dest_files=["res://.godot/imported/flamethrower_1_2.png-78f7ea1299b5bb0cfae84b6c307917e0.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u3jeqbnmqutx"
-path="res://.godot/imported/keys_2_4.png-e884169e4cf7e7be28a8a328e21425ee.ctex"
+path="res://.godot/imported/keys_2_4.png-8bc3f479c441580d01bdef72ffc2005d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/items and trap_animation/keys/keys_2_4.png"
-dest_files=["res://.godot/imported/keys_2_4.png-e884169e4cf7e7be28a8a328e21425ee.ctex"]
+source_file="res://game-assents/items and trap_animation/keys/keys_2_4.png"
+dest_files=["res://.godot/imported/keys_2_4.png-8bc3f479c441580d01bdef72ffc2005d.ctex"]
 
 [params]
 

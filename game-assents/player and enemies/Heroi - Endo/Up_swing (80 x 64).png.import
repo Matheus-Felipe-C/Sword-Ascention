@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsit0nnr6kqoj"
-path="res://.godot/imported/Up_swing (80 x 64).png-5a750406a08572075b57a2b10669ec5f.ctex"
+path="res://.godot/imported/Up_swing (80 x 64).png-99c1738338c1ffb4c669d7779ba09563.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/player and enemies/Heroi - Endo/Up_swing (80 x 64).png"
-dest_files=["res://.godot/imported/Up_swing (80 x 64).png-5a750406a08572075b57a2b10669ec5f.ctex"]
+source_file="res://game-assents/player and enemies/Heroi - Endo/Up_swing (80 x 64).png"
+dest_files=["res://.godot/imported/Up_swing (80 x 64).png-99c1738338c1ffb4c669d7779ba09563.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4entkckbi565"
-path="res://.godot/imported/chest_open_3.png-c8d026d4b328afde4b37a23a8bee617e.ctex"
+path="res://.godot/imported/chest_open_3.png-7164965025be0945ee9135150c4121dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game_assents/items and trap_animation/chest/chest_open_3.png"
-dest_files=["res://.godot/imported/chest_open_3.png-c8d026d4b328afde4b37a23a8bee617e.ctex"]
+source_file="res://game-assents/items and trap_animation/chest/chest_open_3.png"
+dest_files=["res://.godot/imported/chest_open_3.png-7164965025be0945ee9135150c4121dd.ctex"]
 
 [params]
 
