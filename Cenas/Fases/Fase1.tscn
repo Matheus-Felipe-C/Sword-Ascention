@@ -1,10 +1,12 @@
-[gd_scene load_steps=9 format=3 uid="uid://bbx2b3xr6y2jy"]
+[gd_scene load_steps=11 format=3 uid="uid://bbx2b3xr6y2jy"]
 
 [ext_resource type="Texture2D" uid="uid://rkm32awo4d2o" path="res://Assets/character and tileset/Dungeon_Tileset.png" id="1_jip8q"]
 [ext_resource type="PackedScene" uid="uid://bpe0g2o4pgwkb" path="res://Cenas/Objetos/gate.tscn" id="2_vu4nb"]
 [ext_resource type="PackedScene" uid="uid://dkkcfa48a6i6m" path="res://Cenas/Objetos/pressure_plate.tscn" id="3_5fyjc"]
 [ext_resource type="PackedScene" uid="uid://0vixnfysejtp" path="res://Cenas/Objetos/crate.tscn" id="4_dwypy"]
 [ext_resource type="PackedScene" uid="uid://ckhk8culeg2o5" path="res://Cenas/Objetos/Player.tscn" id="5_heg1v"]
+[ext_resource type="PackedScene" uid="uid://bu17v80fude2f" path="res://Cenas/Objetos/Stair.tscn" id="6_ylxxt"]
+[ext_resource type="PackedScene" uid="uid://dabm8qwlhy5u" path="res://Cenas/Fases/fase2.tscn" id="7_t2uql"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_o6oqo"]
 
@@ -365,6 +367,10 @@ doorName = "Gate2"
 
 [node name="Crate" parent="." instance=ExtResource("4_dwypy")]
 position = Vector2(265, -61)
+
+[node name="Stair2D" parent="." instance=ExtResource("6_ylxxt")]
+position = Vector2(79, 84)
+next_scene = ExtResource("7_t2uql")
 
 [node name="Player" parent="." instance=ExtResource("5_heg1v")]
 position = Vector2(3, 31)
