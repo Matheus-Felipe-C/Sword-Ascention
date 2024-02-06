@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" load_steps=4 format=3 uid="uid://gxa7bl4jxkb7"]
 
-[ext_resource type="Texture2D" uid="uid://rkm32awo4d2o" path="res://Assets/interface/character and tileset/Dungeon_Tileset.png" id="1_numu6"]
+[ext_resource type="Texture2D" uid="uid://rkm32awo4d2o" path="res://assets/character and tileset/Dungeon_Tileset.png" id="1_numu6"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_o6oqo"]
 

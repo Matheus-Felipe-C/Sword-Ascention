@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://fnl1ig30w8eb"]
+[gd_scene load_steps=9 format=3 uid="uid://fnl1ig30w8eb"]
 
-[ext_resource type="Texture2D" uid="uid://rkm32awo4d2o" path="res://Assets/interface/character and tileset/Dungeon_Tileset.png" id="1_01dvk"]
+[ext_resource type="Texture2D" uid="uid://rkm32awo4d2o" path="res://assets/character and tileset/Dungeon_Tileset.png" id="1_01dvk"]
 [ext_resource type="PackedScene" uid="uid://bpe0g2o4pgwkb" path="res://Cenas/Objetos/gate.tscn" id="2_6y45a"]
 [ext_resource type="PackedScene" uid="uid://ckhk8culeg2o5" path="res://Cenas/Objetos/Player.tscn" id="3_5kiqm"]
 [ext_resource type="PackedScene" uid="uid://dkkcfa48a6i6m" path="res://Cenas/Objetos/pressure_plate.tscn" id="4_058mk"]
 [ext_resource type="PackedScene" uid="uid://0vixnfysejtp" path="res://Cenas/Objetos/crate.tscn" id="5_idpbu"]
+[ext_resource type="PackedScene" uid="uid://byxgy0px64ewf" path="res://Cenas/Objetos/Flamethrower.tscn" id="6_vtwv2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tpg2t"]
 texture = ExtResource("1_01dvk")
@@ -355,3 +356,6 @@ position = Vector2(25, 8)
 
 [node name="Crate" parent="." instance=ExtResource("5_idpbu")]
 position = Vector2(-23, -9)
+
+[node name="Flamethrower" parent="." instance=ExtResource("6_vtwv2")]
+position = Vector2(26, -24)

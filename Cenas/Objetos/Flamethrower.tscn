@@ -1,0 +1,87 @@
+[gd_scene load_steps=10 format=3 uid="uid://byxgy0px64ewf"]
+
+[ext_resource type="Script" path="res://Scripts/Flamethrower.gd" id="1_oa2a1"]
+[ext_resource type="Texture2D" uid="uid://cjnjnycifwiee" path="res://assets/items and trap_animation/flamethrower/flamethrower_2_1.png" id="1_xqrcm"]
+[ext_resource type="Texture2D" uid="uid://lmpx123o4qm7" path="res://assets/items and trap_animation/flamethrower/flamethrower_2_2.png" id="2_slvjv"]
+[ext_resource type="Texture2D" uid="uid://f0syb25a0u6u" path="res://assets/items and trap_animation/flamethrower/flamethrower_2_3.png" id="3_m4c3m"]
+[ext_resource type="Texture2D" uid="uid://nq38eqwpnajm" path="res://assets/items and trap_animation/flamethrower/flamethrower_2_4.png" id="4_xn0tb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t5hqx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xqrcm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_slvjv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_m4c3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xn0tb")
+}],
+"loop": false,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hde82"]
+size = Vector2(19, 13)
+
+[sub_resource type="Animation" id="Animation_yw205"]
+resource_name = "toggle_collision"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [false, false, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_shh84"]
+_data = {
+"toggle_collision": SubResource("Animation_yw205")
+}
+
+[node name="Flamethrower" type="Area2D"]
+script = ExtResource("1_oa2a1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_t5hqx")
+autoplay = "default"
+frame = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 1.5)
+shape = SubResource("RectangleShape2D_hde82")
+disabled = true
+debug_color = Color(0.521569, 0.439216, 0.945098, 0.780392)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_shh84")
+}
+autoplay = "toggle_collision"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

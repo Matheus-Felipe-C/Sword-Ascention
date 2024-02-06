@@ -2,13 +2,23 @@ extends CharacterBody2D
 
 const SPEED = 100.0
 const PUSH = 50
+var is_dead = false
 
 @onready var animation = $animation as AnimatedSprite2D
-
+	
 func _ready():
 	animation.play("idle")
+	
+func death():
+	is_dead = true
+	animation.play("death")	
+	await get_tree().create_timer(1).timeout
+	get_tree().change_scene_to_file("res://Cenas/game_over.tscn")
 
 func _physics_process(_delta):
+	if is_dead:
+		return
+	
 	velocity = Vector2()
 	
 	# Get the input direction and handle the movement/deceleration.
@@ -40,6 +50,8 @@ func _physics_process(_delta):
 				collision_collider.apply_force(collision.get_normal() * -PUSH)
 # Para o player e roda a animação de idle
 func _input(event):
+	if is_dead:
+		return
 	if event is InputEventKey and event.pressed == false:
 		velocity = Vector2()
 		animation.play('idle')

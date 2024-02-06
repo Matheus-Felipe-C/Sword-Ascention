@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://bu17v80fude2f"]
 
 [ext_resource type="Script" path="res://Scripts/Stair.gd" id="1_jsytd"]
-[ext_resource type="Texture2D" uid="uid://743yjxl4b4yu" path="res://Assets/items and trap_animation/Stair.png" id="1_wiile"]
+[ext_resource type="Texture2D" uid="uid://743yjxl4b4yu" path="res://assets/items and trap_animation/Stair.png" id="1_wiile"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hn2jt"]
 size = Vector2(19, 16)
